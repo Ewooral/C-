@@ -8,6 +8,11 @@ class Car{
       string carType;
       string carRegistryNumber;
       string dateManufactured;
+      //creating a contructor function 
+      Car(){
+          cout << "creating a new object" << endl;
+      }
+
 };
 
 int main()
@@ -30,7 +35,7 @@ int main()
     cout << "-------------1st instance of the class---------" << endl;
     cout << carname << endl;
     cout << datemanufactured << endl;
-    
+
     cout << "-------------2nd instance of the class---------" << endl;
     cout << carname1 << endl;
     cout << model1 << endl;
