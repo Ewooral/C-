@@ -10,7 +10,7 @@ int main()
     cout << weight << endl;
     double height = 1.75;
     cout << height << endl;
-    bool isValid = true;
+    bool isValid = true; // Note that true = 1, false = 0
     cout << isValid << endl;
     string myFirstName = "Elijah";
     cout << myFirstName << endl;

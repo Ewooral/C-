@@ -13,13 +13,15 @@ class Car{
        {
            carName = carname;
            carType = cartype;
-           carRegistryNumber = carregistrynumber;
+           carRegistryNumber = carregistrynumber;    
       }
 
 };
 
 int main()
 {
+   
+
     Car italianCars("Lamborghini", "F-Force Ario", "2022-02-28"); // 1st instaqnce of the class
 
     Car americanCars("Ferrari", "IO222-Heaven", "2013-20-02"); // 2nd instance of the same class
@@ -29,10 +31,12 @@ int main()
     cout << "the type of my car is " << italianCars.carType << endl;
     cout << "the car registry number is " << italianCars.carRegistryNumber << endl;
 
+
     cout << "-------------2nd instance of the class---------" << endl;
     cout << "the name of my car is " << americanCars.carName << endl;
     cout << "the type of my car is " << americanCars.carType << endl;
     cout << "the car registry number is " << americanCars.carRegistryNumber << endl;
+
 
     return 0;
 }
