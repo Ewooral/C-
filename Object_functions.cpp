@@ -19,17 +19,18 @@ public:
     }
 
     // lets include our object function
-    string isSenior()
+
+    int isSenior()
     {
         if (age <= 30)
         {
-            cout << "You're a Junior" << endl;
+            cout << "But a Junior" << endl;
         }
         else
         {
-            cout << "You're a Senior" << endl;
+            cout << "But a Senior" << endl;
         }
-        return 0;
+        return 0  ;
     }
 
     double isLazy()
@@ -60,8 +61,8 @@ int main()
 
     // PRESEC STUDENTS
     cout << presec_student.name << endl;
-    cout << presec_student.isSenior() << endl;
     cout << presec_student.isLazy() << endl;
+    cout << presec_student.isSenior() << endl;
 
     return 0;
 }
