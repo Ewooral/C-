@@ -15,7 +15,11 @@ int main()
         {4, 5, 6},
         {7, 8, 12}
     };
-    cout << numberGrid[4][2] << endl;
+    int firstElem = numberGrid[0][0];
+    int secondElem = numberGrid[1][1];
+    int thirdElem = numberGrid[2][2];
+  
+    cout << firstElem + secondElem + thirdElem << endl;
 
     return 0;
 }
