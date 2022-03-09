@@ -7,7 +7,11 @@ int main()
     int apple_count(200);
     int apple_countI{4430};
 
-    cout << apple_count << "\n" << apple_countI << endl;
+    //information lost. less safe than brace initializers
+    int narrowing_conversion_function(34.09);
+
+    cout << apple_count << "\n" << apple_countI << "\n" <<
+     narrowing_conversion_function<< endl;
 
 
 string myFirstName = "Elijah";
