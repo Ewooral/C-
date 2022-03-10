@@ -16,6 +16,7 @@ int main()
     int B[] = {2, 4, 5, 2, 3};
     cout << *(B +2) << endl; // 5
     cout << *(B + 1) << endl; // 4
-    cout << B[3] << endl; // 2
+    
+    cout << ("%u", &A[2]) << endl; // 2
     cout << 4[B] << endl; // 3
 }
